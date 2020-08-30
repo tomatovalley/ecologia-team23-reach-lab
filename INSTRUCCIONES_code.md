@@ -5,4 +5,4 @@
 
 Conectar el arduino como lo indica la siguiente imagen:
 
-![Conexion de Arduino.](./img/Conexion.png)
+![Conexion de Arduino.](./img/conexion.png)
