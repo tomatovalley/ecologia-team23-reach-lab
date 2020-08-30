@@ -7,3 +7,6 @@
 Conectar el arduino como lo indica la siguiente imagen:
 
 ![Conexion de Arduino.](./img/conexion.png)
+
+
+O importar el archivo .brd en tinkercad
