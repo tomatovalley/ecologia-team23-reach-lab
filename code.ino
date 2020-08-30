@@ -24,9 +24,9 @@ void loop() {
   float temp = analogRead(pinLM35);    
   // Calculamos la temperatura con la fórmula
   tempC = (temp - 500 )/ 10;  
-  pH = random() * (6.48-6.30) / 10;
-  oxigenacion = random() * (50.6-6.4) / 10;
-  contenidoSustrato = random() * (100.0 - 20.0) / 10; 
+  pH = random() % 4 + 6;
+  oxigenacion = random() % 1357 + 99345;
+  contenidoSustrato = random() % 653 + 44367; 
  
   
   Serial.print(tempC);
